@@ -1,4 +1,4 @@
-# 📊 Competitor Revenue & Sales Analysis — Power BI
+# 📊 Competitor Revenue & Sales Analysis - Power BI
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)]()
 [![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)]()
@@ -35,7 +35,7 @@ The goal is to answer two layers of questions:
 
 ## 🔄 How It Was Built
 
-### Step 1 — Data Preparation (Power Query)
+### Step 1 - Data Preparation (Power Query)
 - Loaded and integrated data from multiple source files
 - Cleaned raw data: removed unnecessary columns, filled null values, corrected data types
 - Used "Column from Examples" to split and reshape fields
@@ -43,7 +43,7 @@ The goal is to answer two layers of questions:
 - Applied column profiling (value distribution, column statistics) for exploratory validation
 - Filtered to 3-year window (2019–2021) for focused trend analysis
 
-### Step 2 — Data Modeling (Star Schema)
+### Step 2 - Data Modeling (Star Schema)
 
 ![Data Model](assets/data_model.png)
 
@@ -57,7 +57,7 @@ Geography    ──┘
 - Established all relationships between dimension and fact tables
 - Created a Product Hierarchy: **Category → Segment → Product** for drill-down analysis
 
-### Step 3 — DAX Measures
+### Step 3 - DAX Measures
 
 ```dax
 -- Prior Year Sales (time intelligence)
@@ -73,7 +73,7 @@ Market Share % = DIVIDE([Sintec Revenue], [Total Market Revenue])
 %GT Revenue = DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(Sales)))
 ```
 
-### Step 4 — Visuals & Features Used
+### Step 4 - Visuals & Features Used
 
 | Visual / Feature | Purpose |
 |---|---|
@@ -120,8 +120,8 @@ Market Share % = DIVIDE([Sintec Revenue], [Total Market Revenue])
 | Youth | $2.25M | $1.20M | **+86.81%** ⬆️ | 3.15% |
 
 ### Geographic Insights
-- 🇺🇸 **USA — $51M**: Sintec's dominant market; leads against all competitors
-- 🇯🇵 **Japan — $11M**: Strong second market
+- 🇺🇸 **USA - $51M**: Sintec's dominant market; leads against all competitors
+- 🇯🇵 **Japan - $11M**: Strong second market
 - 🇩🇪 **Germany**: **Artisans leads** — the one market where Sintec does not dominate
 - 🇳🇬 Nigeria · 🇲🇽 Mexico · 🇨🇦 Canada: Smaller but present markets ($1–3M each)
 
@@ -154,14 +154,14 @@ The Key Influencers visual identified that revenue is most likely to increase wh
 
 ## 🛠️ Tools & Skills
 
-- **Power BI Desktop** — End-to-end report development and publishing
-- **Power Query (M)** — Multi-source data integration, table appending, cleaning and reshaping
-- **DAX** — Time intelligence (`SAMEPERIODLASTYEAR`), market share, grand total %, dynamic Top N
-- **Excel** — Source data exploration and pre-processing
-- **Star Schema Modeling** — 1 fact table + 4 dimension tables with defined relationships
-- **AI Visuals** — Key Influencers, Top Segments, Decomposition Tree
-- **Git & GitHub** — Version control and portfolio publishing
-- **UX & Storytelling** — Bookmarks, spotlight, logo slicer, custom brand theme
+- **Power BI Desktop** - End-to-end report development and publishing
+- **Power Query (M)** - Multi-source data integration, table appending, cleaning and reshaping
+- **DAX** - Time intelligence (`SAMEPERIODLASTYEAR`), market share, grand total %, dynamic Top N
+- **Excel** - Source data exploration and pre-processing
+- **Star Schema Modeling** - 1 fact table + 4 dimension tables with defined relationships
+- **AI Visuals** - Key Influencers, Top Segments, Decomposition Tree
+- **Git & GitHub** - Version control and portfolio publishing
+- **UX & Storytelling** - Bookmarks, spotlight, logo slicer, custom brand theme
 
 ---
 
@@ -171,12 +171,10 @@ The Key Influencers visual identified that revenue is most likely to increase wh
 ├── CompetitorSalesAnalysis.pbix        ← Power BI report file
 ├── README.md
 └── assets/
-    ├── dashboard-demo.gif                        ← Animated walkthrough (coming soon)
+    ├── dashboard-demo.gif                        ← Animated walkthrough
     ├── competitor_sales.png
     ├── Sales_Distribution_across_categories.png
     └── Top_5_Competitor_Sales.png
 ```
 
 ---
-
-*Built by [Your Name] · [LinkedIn](https://linkedin.com/in/yourprofile)*
