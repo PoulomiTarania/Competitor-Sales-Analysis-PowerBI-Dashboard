@@ -26,9 +26,9 @@ The goal is to answer two layers of questions:
 
 ## 📸 Dashboard
 
-| Competitor Sales Analysis | Sales Distribution |
-|---|---|
-| ![Page 1](assets/screenshot-competitor-sales.png) | ![Page 2](assets/screenshot-sales-distribution.png) |
+| Competitor Sales Analysis | Sales Distribution | Top 5 Competitors |
+|---|---|---|
+| ![Page 1](assets/competitor_sales.png) | ![Page 2](assets/Sales_Distribution_across_categories.png) | ![Page 3](assets/Top_5_Competitor_Sales.png) |
 
 ---
 
@@ -169,9 +169,12 @@ The Key Influencers visual identified that revenue is most likely to increase wh
 ├── CompetitorSalesAnalysis.pbix        ← Power BI report file
 ├── README.md
 └── assets/
-    ├── dashboard-demo.gif              ← Animated walkthrough
-    ├── screenshot-competitor-sales.png
-    └── screenshot-sales-distribution.png
+    ├── dashboard-demo.gif                        ← Animated walkthrough (coming soon)
+    ├── competitor_sales.png
+    ├── Sales_Distribution_across_categories.png
+    └── Top_5_Competitor_Sales.png
 ```
 
 ---
+
+*Built by [Your Name] · [LinkedIn](https://linkedin.com/in/yourprofile)*
