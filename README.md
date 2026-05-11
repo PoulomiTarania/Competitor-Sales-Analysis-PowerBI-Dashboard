@@ -26,9 +26,9 @@ The goal is to answer two layers of questions:
 
 ## 📸 Dashboard
 
-| Competitor Sales Analysis | Sales Distribution | Top 5 Competitors |
-|---|---|---|
-| ![Page 1](assets/competitor_sales.png) | ![Page 2](assets/Sales_Distribution_across_categories.png) | ![Page 3](assets/Top_5_Competitor_Sales.png) |
+| Competitor Sales Analysis | Sales Distribution | 
+|---|---|
+| ![Page 1](assets/Top_5_Competitor_Sales.png) | ![Page 2](assets/Sales_Distribution_across_categories.png) |
 
 ---
 
