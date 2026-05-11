@@ -5,6 +5,8 @@
 [![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)]()
 [![Power Query](https://img.shields.io/badge/Power%20Query-742774?style=for-the-badge&logo=microsoft&logoColor=white)]()
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)]()
+[![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-8A2BE2?style=for-the-badge)]()
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)]()
 
 ![Dashboard Demo](assets/dashboard-demo.gif)
 
@@ -28,8 +30,7 @@ The goal is to answer two layers of questions:
 
 | Competitor Sales Analysis | Sales Distribution | 
 |---|---|
-| ![Page 1](assets/Top_5_Competitor_Sales.png) | ![Page 2](assets/Sales_Distribution_across_categories.png) |
-
+| ![Page 1](assets/competitor_sales.png) | ![Page 2](assets/Sales_Distribution_across_categories.png) | 
 ---
 
 ## 🔄 How It Was Built
@@ -43,6 +44,8 @@ The goal is to answer two layers of questions:
 - Filtered to 3-year window (2019–2021) for focused trend analysis
 
 ### Step 2 — Data Modeling (Star Schema)
+
+![Data Model](assets/data_model.png)
 
 ```
 Manufacturer ──┐
