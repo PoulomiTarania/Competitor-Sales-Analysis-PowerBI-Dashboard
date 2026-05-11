@@ -175,5 +175,3 @@ The Key Influencers visual identified that revenue is most likely to increase wh
 ```
 
 ---
-
-*Built by [Your Name] · [LinkedIn](https://linkedin.com/in/yourprofile)*
