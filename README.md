@@ -51,7 +51,6 @@ Date         ──┼──► Sales (Fact Table)
 Geography    ──┘
 ```
 
-- Built a `Date` table via DAX: `Date = CALENDAR(DATE(2019,1,1), DATE(2021,12,31))`
 - Established all relationships between dimension and fact tables
 - Created a Product Hierarchy: **Category → Segment → Product** for drill-down analysis
 
